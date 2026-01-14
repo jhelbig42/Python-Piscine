@@ -14,7 +14,7 @@ else:
     print("%i + %i = %i" % (first, second, (first + second)))
     print("%i - %i = %i" % (first, second, (first - second)))
     if (second != 0):
-        print("%i / %i = %i" % (first, second, (first / second)))
+        print("%i / %i = %f" % (first, second, (first / second)))
     else:
         print("Division by zero is not possible")
     print("%i * %i = %i" % (first, second, (first * second)))
