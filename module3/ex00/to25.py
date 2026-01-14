@@ -9,7 +9,7 @@ except ValueError:
     print("Invalid input")
 else:
     if( val > 24):
-        print("not  a number below 25")
+        print("not a number below 25")
     else:
         while (val <= 25):
             print("inside the loop, my variable is %i" % val)
